@@ -2,11 +2,10 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
     --- 初始化 ---
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-    --- 测试模板 ---
-    <test></test>
-    --- 测试路由 ---
-    <Router></Router>
+    <HelloWorld msg="Welcome to Your Vue.js App" />--- 测试模板 ---
+    <test></test>--- 测试路由 ---
+    <Router></Router>--- vuex 测试 ---
+    <VuexComponent />
   </div>
 </template>
 
@@ -14,13 +13,15 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import test from "./components/text.vue";
 import Router from "./components/router.vue";
+import VuexComponent from "./components/vuex";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
     test,
-    Router
+    Router,
+    VuexComponent
   }
 };
 </script>
