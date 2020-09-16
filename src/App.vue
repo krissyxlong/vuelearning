@@ -5,7 +5,9 @@
     <HelloWorld msg="Welcome to Your Vue.js App" />--- 测试模板 ---
     <test></test>--- 测试路由 ---
     <Router></Router>--- vuex 测试 ---
-    <VuexComponent />
+    <VuexComponent />--- element-ui 测试 ---
+    <ElementUIComponent />--- 测试插槽 ----
+    <SlotComponent />
   </div>
 </template>
 
@@ -14,6 +16,8 @@ import HelloWorld from "./components/HelloWorld.vue";
 import test from "./components/text.vue";
 import Router from "./components/router.vue";
 import VuexComponent from "./components/vuex";
+import ElementUIComponent from "./components/elementUI";
+import SlotComponent from "./components/slotComponent";
 
 export default {
   name: "App",
@@ -21,7 +25,9 @@ export default {
     HelloWorld,
     test,
     Router,
-    VuexComponent
+    VuexComponent,
+    ElementUIComponent,
+    SlotComponent
   }
 };
 </script>

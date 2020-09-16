@@ -1,0 +1,28 @@
+{
+  "editor.onSave": true,
+  "editor.tabSize": 2,
+  "window.zoomLevel": 1,
+  "editor.fontSize": 13,
+  "editor.formatOnPaste": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.run": "onSave",
+  "eslint.options": {
+    "extensions": [".js", ".vue", ".ts"]
+  },
+  "eslint.enable": true,
+  "eslint.validate": ["javascript", "vue", "html"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true
+}
